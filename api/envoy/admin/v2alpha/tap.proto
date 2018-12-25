@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package envoy.admin.v2alpha;
+
+// fixfix
+message TapRequest {
+  string config_id = 1 [(validate.rules).string.min_bytes = 1];
+}
+
+// fixfix
+message TapResponse {
+}

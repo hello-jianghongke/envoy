@@ -55,3 +55,8 @@ api_proto_library_internal(
     srcs = ["server_info.proto"],
     visibility = ["//visibility:public"],
 )
+
+api_proto_library_internal(
+    name = "tap",
+    srcs = ["tap.proto"],
+)
